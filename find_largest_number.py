@@ -25,12 +25,12 @@ def get_scale(line):
             return multiplier
     return None
 
+
 def should_scale(num, line):
-    # Check if the number is a dollar value by checking if there is a decmial point
+    # Check if the number is a dollar value by checking if there is a decimal point
     if f"${num}" in line:
         return False
     return "." in num
-
 
 
 def find_numbers(pdf_path):
