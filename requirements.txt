@@ -1,0 +1,2 @@
+# Runtime dependency: PDF text extraction.
+pypdf>=4.0
